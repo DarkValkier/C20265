@@ -26,3 +26,6 @@ class Character:
 
     def set_name(self, new_name):
         self.name = new_name
+
+    def is_alive(self):
+        return self.health > 0
