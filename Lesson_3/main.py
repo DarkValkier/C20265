@@ -1,7 +1,8 @@
 from Lesson_2.character import Character
 from berserk import Berserk
+from tank import Tank
 
-player1 = Character(name='Vasya', damage=10)
+player1 = Tank(name='Vasya', damage=10, defence=3)
 player2 = Berserk(name='Petya', damage=10)
 
 print(f' - Player 1 - \n{player1}')
